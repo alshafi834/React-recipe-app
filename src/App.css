@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+.search-form {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-input {
+  width: 50%;
+  padding: 10px;
+}
+.search-btn {
+  background: lightcoral;
+  border: none;
+  padding: 12px 20px;
+  color: white;
+}
+
+.recipes {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  /* width: 30%;
+  float: left;
+  overflow: hidden; */
+  /* display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; */
+}
